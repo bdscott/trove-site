@@ -35,7 +35,7 @@ section.hero {
   background: -webkit-linear-gradient(#c8bbe3,#8789be);
   color: white;
   height: 340px;
-  padding: 50px;
+  padding: 65px 0 35px;
 }
 
 section.appinfo {
@@ -44,15 +44,24 @@ section.appinfo {
   z-index: 0;
   background:#fff;
   top: 394px;
+  padding-top: 50px;
 }
 div.app {
-  width: 600px;
-  height: 439px;
+  width: 477px;
+  height: 315px;
   background: red;
   background: url('../images/app.png');
-  margin-top: -30px;
+  margin-top: -80px;
   margin-right: -50px;
-  float: right;
+  float: right;  
+  margin-left: 100px;
+  margin: -80px -50px 50px 100px;
+}
 
-  
+h2 {
+  color: #3f5892;
+}
+
+.appinfo p {
+  margin-bottom: 50px;
 }

@@ -25,3 +25,20 @@ header:hover img {
 }
 
 blockquote	{ font-size: 50px; color: #ffffff; }
+
+
+section.hero {
+  background: #aaacbb;
+  color: white;
+  height: 300px;
+  padding: 50px;
+}
+
+div.app {
+  width: 600px;
+  height: 439px;
+  background: red;
+  background: url('../images/app.png');
+  margin-top: -50px;
+  
+}

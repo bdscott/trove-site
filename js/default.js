@@ -1,5 +1,6 @@
 $(function(){
 	
+	$('header').hover()
 	$('blockquote#trove-mission').hide();
 	
 	var quote = $('blockquote#moments-promo');

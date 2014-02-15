@@ -9,7 +9,7 @@
 }
 
 * { margin: 0; padding: 0;}
-body	{ background: #eeeeee; font-family: 'Source Sans Pro'; font-weight: 300; }
+body	{ background: url(../images/background.jpg) no-repeat; background-size: 100% auto; background-attachment: fixed; font-family: 'Source Sans Pro'; font-weight: 300; }
 header { background: #fff; padding: 10px 0; width: 100%; }
 header img	{ display: block; width: 44px; height:44px; position:absolute; margin: 5px 0 0 -60px;}
 header h1	{ color: #cbb266; font-size: 35px; font-weight: 300; position: absolute; margin-left: 60px; }
@@ -24,7 +24,4 @@ header:hover img {
   -webkit-animation-iteration-count: 1;
 }
 
-blockquote	{ font-size: 50px; }
-
-
-blockquote	{ font-size: 50px; }
+blockquote	{ font-size: 50px; color: #ffffff; }

@@ -11,7 +11,18 @@
 * { margin: 0; padding: 0;}
 body	{ font-family: 'Source Sans Pro'; font-weight: 300;  }
 header { z-index: 10; border-bottom: 1px solid rgba(0,0,0,0.1); background: #fff; padding: 10px 0; width: 100%; position: fixed; }
-header img	{ display: block; width: 44px; height:44px; position:absolute; margin: 5px 0 0 -60px;}
+header img	{ 
+	display: block; 
+	width: 44px; 
+	height:44px; 
+	position: absolute; 
+	margin: 5px 0 0 -60px;
+	-webkit-animation-name: shake;
+  	-webkit-animation-duration: 1s;
+  	-webkit-animation-iteration-count: 1;
+	-webkit-animation-delay:4s;
+	animation-delay:4s;
+}
 header h1	{ color: #cbb266; font-size: 35px; font-weight: 300; position: absolute; margin-left: 60px; }
 nav	{ text-align: right; }
 a.button	{ background: #cbb266; color: #fff; text-decoration: none; padding: 5px 10px; margin: 7px 0 ; display: inline-block; font-weight: 300; }
@@ -24,7 +35,7 @@ header:hover img {
   -webkit-animation-iteration-count: 1;
 }
 
-blockquote	{ font-size: 50px; color: #ffffff; }
+blockquote	{ font-size: 50px; color: #ffffff; text-shadow: 1px 0 #dedede; }
 
 section.hero {
   top: 54px;
@@ -45,6 +56,7 @@ section.appinfo {
   background:#fff;
   top: 394px;
   padding-top: 50px;
+  padding-bottom: 50px;
 }
 div.app {
   width: 477px;
@@ -75,6 +87,6 @@ p.caption	{ font-style: italic; text-transform: uppercase; color: #cecece; text-
 @media screen and (max-width: 650px){
 	blockquote	{ font-size: 30px; }
 	section.hero	{ height: 255px; padding-top: 45px; }
-	section.appinfo	{ width: 100%; overflow-x: hidden; }
+	section.appinfo	{ width: 100%; overflow: hidden; }
 	ul#estimotes li	{ margin-right: -1px; }
 }

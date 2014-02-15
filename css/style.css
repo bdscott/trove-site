@@ -1,0 +1,9 @@
+body	{ background: #e4e4e4; }
+
+header img	{ width: 22.5px; }
+header h1	{ font-size: 32px; line-height: 45px; color: #458fac; font-family: 'Source Sans Pro' }
+nav	{ text-align: right; padding-top: 15px; }
+a.button	{ color: #94c1d4; text-decoration: none; padding: 5px 3px; display: inline-block; border-bottom: 3px solid #eeeeee; }
+a.button:hover	{ color: #458fac; }
+
+blockquote	{ font-size: 50px; }

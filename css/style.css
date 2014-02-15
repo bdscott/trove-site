@@ -11,3 +11,4 @@ a.button:active  { background: #bba256; }
 
 
 blockquote	{ font-size: 50px; }
+blockquote#trove-mission	{ text-align: right; }

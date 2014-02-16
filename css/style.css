@@ -109,6 +109,15 @@ h2 {
   margin-top: -40px;
 }
 
+footer {
+  width: 100%;
+  text-align: center;
+  display: block;
+  clear:both;
+  margin: 0;
+  padding: 30px;
+  background: -webkit-linear-gradient(#c8bbe3,#8789be);
+}
 ul.estimotes	{ list-style: none; margin-bottom: 50px; }
 ul.estimotes li	{ display: inline-block; width: 32%; padding: 0; }
 ul.estimotes li img	{ margin: 0 auto; display: block; width: 68px; height: 183px }

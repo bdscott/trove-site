@@ -31,7 +31,7 @@ $(function(){
 		}).promise().done(function(){
 			$('blockquote#moments-promo > span').delay(300);
 			$('blockquote#trove-mission').fadeIn(3000).promise().done(function(){
-			
+				$('header img.preload').removeClass('preload');
 			});
 		});
 	}

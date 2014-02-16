@@ -17,6 +17,8 @@ header img	{
 	height:44px; 
 	position: absolute; 
 	margin: 5px 0 0 -60px;
+}
+header img.preload	{
 	-webkit-animation-name: shake;
   	-webkit-animation-duration: 1s;
   	-webkit-animation-iteration-count: 1;

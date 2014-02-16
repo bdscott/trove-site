@@ -92,7 +92,7 @@ p.caption	{ font-style: italic; text-transform: uppercase; color: #cecece; text-
 	section.hero	{ height: 250px; padding-top: 45px; }
 =======
 	div.app	{ background-size: 50%; background-repeat: no-repeat; width: 238.5px; }
-  section.hero { height: auto; padding: 50px 0 100px; position: relative;}
+  section.hero { height: auto; padding: 50px 0; position: relative;}
   section.appinfo {top:0; margin-top: 100px;}
 >>>>>>> 18fb054a1787c51e8d7f0c4eb42b7315186c9e65
 }

@@ -81,7 +81,7 @@ h2 {
 
 ul#estimotes	{ list-style: none; }
 ul#estimotes li	{ display: inline-block; width: 33%; padding: 0; }
-ul#estimotes li img	{ margin: 0 auto; display: block; width: 68px; height: 183px; }
+ul#estimotes li img	{ margin: 0 auto; display: block; width: 68px; height: 183px }
 
 p.caption	{ font-style: italic; text-transform: uppercase; color: #cecece; text-align: center; padding-top: 10px; font-size: 14px; }
 
@@ -90,15 +90,8 @@ p.caption	{ font-style: italic; text-transform: uppercase; color: #cecece; text-
 	div.app	{ background-size: 50%; background-repeat: no-repeat; width: 238.5px; display: none; }
 	section.hero	{ height: 250px; padding-top: 45px; }
 	div.app	{ background-size: 50%; background-repeat: no-repeat; width: 238.5px; }
-<<<<<<< HEAD
-  	section.hero { height: auto; padding: 50px 0; position: relative;}
+  	section.hero { height: 270; padding: 50px 0; position: relative;}
   	section.appinfo {top:0; margin-top: 100px;}
-=======
-  section.hero { height: auto; padding: 50px 0 100px; position: relative;}
-  section.appinfo {top:0; margin-top: 100px;}
->>>>>>> 18fb054a1787c51e8d7f0c4eb42b7315186c9e65
->>>>>>> 46bbc374b0493aab4dd33797239cbdc8aa128d0a
->>>>>>> c37459c613179f5df20531231933654b6044647b
 }
 
 @media screen and (max-width: 650px){

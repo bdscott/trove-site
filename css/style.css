@@ -61,7 +61,7 @@ section.appinfo {
   position: relative;
   z-index: 0;
   background:#fff;
-  top: 394px;
+  top: 254px;
   padding-top: 50px;
   padding-bottom: 50px;
 }
@@ -115,7 +115,7 @@ footer {
   display: block;
   clear:both;
   margin: 0;
-  padding: 30px;
+  padding: :;
   background: -webkit-linear-gradient(#c8bbe3,#8789be);
 }
 ul.estimotes	{ list-style: none; margin-bottom: 50px; }

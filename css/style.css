@@ -34,6 +34,11 @@ header:hover img {
   -webkit-animation-duration: 1s;
   -webkit-animation-iteration-count: 1;
 }
+.group:after {
+  content: "";
+  display: table;
+  clear: both;
+}
 
 blockquote	{ font-size: 50px; color: #ffffff; }
 
@@ -62,7 +67,6 @@ section.appinfo {
 div.app {
   width: 477px;
   height: 315px;
-  background: red;
   background: url('../images/app.png');
   margin-top: -80px;
   margin-right: -50px;
@@ -71,8 +75,27 @@ div.app {
   margin: -80px -50px 50px 100px;
 }
 
+div.explain {
+  clear: both;
+  margin-bottom: 50px;
+}
+
+div.third {
+  float:left;
+  width:33.3%;
+  display: block;
+}
+div.third:nth-child(1) { padding-right: 40px; }
+div.third:nth-child(2) { padding: 0 20px; }
+div.third:nth-child(3) { padding-left: 40px; }
+
+div.third img {
+  width: 100%;
+}
 h2 {
   color: #3f5892;
+  line-height: 35px;
+  margin-bottom: 5px;
 }
 
 .appinfo p {
@@ -98,4 +121,5 @@ p.caption	{ font-style: italic; margin-top:20px; color: #cecece; text-align: cen
 	section.appinfo	{ width: 100%; overflow: hidden; padding-top: 0; }
 	ul#estimotes li	{ width: 48%; }
 	ul#estimotes li.first	{ display: none; }
+  div.third { width: 100%; position: relative; margin: 30px auto; padding: 0 !important;}
 }

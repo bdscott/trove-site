@@ -88,10 +88,8 @@ p.caption	{ font-style: italic; margin-top:20px; color: #cecece; text-align: cen
 @media screen and (max-width: 800px){
 	blockquote	{ font-size: 40px; }
 	div.app	{ background-size: 50%; background-repeat: no-repeat; width: 238.5px; display: none; }
-	div.app	{ background-size: 50%; background-repeat: no-repeat; width: 238.5px; }
-  	section.appinfo {top:0; margin-top: 100px;}
-  	section.hero { top: 64px; height: 270px; padding: 50px 0; position: relative;}
-
+	section.appinfo {top:0; margin-top: 100px; padding-top: 0;}
+	section.hero { top: 64px; height: 270px; padding: 50px 0; position: relative;}
 }
 
 @media screen and (max-width: 650px){

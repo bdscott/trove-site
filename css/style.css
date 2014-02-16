@@ -83,7 +83,7 @@ ul#estimotes	{ list-style: none; }
 ul#estimotes li	{ display: inline-block; width: 33%; padding: 0; }
 ul#estimotes li img	{ margin: 0 auto; display: block; width: 68px; height: 183px }
 
-p.caption	{ font-style: italic; margin-top:20px; color: #cecece; text-align: center; padding-top: 10px; font-size: 14px; }
+p.caption	{ font-style: italic; margin-top:20px; color: #cecece; text-align: center; padding-top: 10px; font-size: 16px; }
 
 @media screen and (max-width: 800px){
 	blockquote	{ font-size: 40px; }

@@ -8,7 +8,7 @@
   100% { -webkit-transform: rotate(0deg); }
 }
 
-* { margin: 0; padding: 0;}
+* { margin: 0; padding: 0; }
 body	{ font-family: 'Source Sans Pro'; font-weight: 300;  }
 header { z-index: 10; border-bottom: 1px solid rgba(0,0,0,0.1); background: #fff; padding: 10px 0; width: 100%; position: fixed; }
 header img	{ 
@@ -67,7 +67,7 @@ div.app {
   margin-top: -80px;
   margin-right: -50px;
   float: right;  
-  margin-left: 100px;
+  margin-left: 50px;
   margin: -80px -50px 50px 100px;
 }
 
@@ -87,7 +87,8 @@ p.caption	{ font-style: italic; text-transform: uppercase; color: #cecece; text-
 
 @media screen and (max-width: 800px){
 	blockquote	{ font-size: 40px; }
-	div.app	{ background-size: 50%; background-repeat: no-repeat; width: 238.5px; }
+	div.app	{ background-size: 50%; background-repeat: no-repeat; width: 238.5px; display: none; }
+	section.hero	{ height: 250px; padding-top: 45px; }
 }
 
 @media screen and (max-width: 650px){
@@ -95,5 +96,4 @@ p.caption	{ font-style: italic; text-transform: uppercase; color: #cecece; text-
 	section.hero	{ height: 255px; padding-top: 45px; }
 	section.appinfo	{ width: 100%; overflow: hidden; padding-top: 0; }
 	ul#estimotes li	{ margin-right: -1px; }
-	div.app	{ display: none; }
 }

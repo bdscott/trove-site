@@ -20,8 +20,8 @@ header img	{
 	-webkit-animation-name: shake;
   	-webkit-animation-duration: 1s;
   	-webkit-animation-iteration-count: 1;
-	-webkit-animation-delay: 4s;
-	animation-delay: 4s;
+	-webkit-animation-delay: 2.5s;
+	animation-delay: 2.5s;
 }
 header h1	{ color: #cbb266; font-size: 35px; font-weight: 300; position: absolute; margin-left: 60px; }
 nav	{ text-align: right; }

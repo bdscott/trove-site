@@ -29,10 +29,13 @@ $(function(){
 	   $(this).delay(300 * i).fadeIn(500);
 	}).promise().done(function(){
 		$('blockquote#moments-promo > span').delay(300);
-		$('blockquote#trove-mission').fadeIn(3000);
-		//$('blockquote#moments-promo').animate({ 'visibility' : 'hidden' }, 1000).slideUp(5000);
-		
-		
+		$('blockquote#trove-mission').fadeIn(3000).promise().done(function(){
+			if ($(window).width() < 650) {
+	     		//$('div.app').animate({ top: 50 }, 200);
+			}
+		});
 	});
+
+		//$('blockquote#moments-promo').animate({ 'visibility' : 'hidden' }, 1000).slideUp(5000);
 
 });

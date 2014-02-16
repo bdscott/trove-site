@@ -20,14 +20,14 @@ header img	{
 	-webkit-animation-name: shake;
   	-webkit-animation-duration: 1s;
   	-webkit-animation-iteration-count: 1;
-	-webkit-animation-delay:4s;
-	animation-delay:4s;
+	-webkit-animation-delay: 4s;
+	animation-delay: 4s;
 }
 header h1	{ color: #cbb266; font-size: 35px; font-weight: 300; position: absolute; margin-left: 60px; }
 nav	{ text-align: right; }
-a.button	{ background: #cbb266; color: #fff; text-decoration: none; padding: 5px 10px; margin: 7px 0 ; display: inline-block; font-weight: 300; }
-a.button:hover	{ background: #dbc276; }
-a.button:active  { background: #bba256; }
+a.button	{ background: #cbb266; color: #fff; text-decoration: none; padding: 5px 10px; margin: 7px 0 ; display: inline-block; font-weight: 300; border-radius: 3px; }
+a.button:hover	{ background: #c6ae65; }
+a.button:active  { background: #bea763; }
 
 header:hover img {
   -webkit-animation-name: shake;
@@ -35,7 +35,7 @@ header:hover img {
   -webkit-animation-iteration-count: 1;
 }
 
-blockquote	{ font-size: 50px; color: #ffffff; text-shadow: 1px 0 #dedede; }
+blockquote	{ font-size: 50px; color: #ffffff; }
 
 section.hero {
   top: 54px;
@@ -58,6 +58,7 @@ section.appinfo {
   padding-top: 50px;
   padding-bottom: 50px;
 }
+
 div.app {
   width: 477px;
   height: 315px;
@@ -84,9 +85,15 @@ ul#estimotes li img	{ margin: 0 auto; display: block; }
 
 p.caption	{ font-style: italic; text-transform: uppercase; color: #cecece; text-align: center; padding-top: 10px; font-size: 14px; }
 
+@media screen and (max-width: 800px){
+	blockquote	{ font-size: 40px; }
+	div.app	{ background-size: 50%; background-repeat: no-repeat; width: 238.5px; }
+}
+
 @media screen and (max-width: 650px){
 	blockquote	{ font-size: 30px; }
 	section.hero	{ height: 255px; padding-top: 45px; }
-	section.appinfo	{ width: 100%; overflow: hidden; }
+	section.appinfo	{ width: 100%; overflow: hidden; padding-top: 0; }
 	ul#estimotes li	{ margin-right: -1px; }
+	div.app	{ display: none; }
 }

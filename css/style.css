@@ -117,7 +117,15 @@ footer {
   margin: 0;
   padding: 40px;
   background: -webkit-linear-gradient(#c8bbe3,#8789be);
+  color: #ffffff;
 }
+
+footer a {
+	color: #ffffff;
+	text-decoration: none;
+	border-bottom: 1px dotted #ffffff;
+}
+
 ul.estimotes	{ list-style: none; margin-bottom: 50px; }
 ul.estimotes li	{ display: inline-block; width: 32%; padding: 0; }
 ul.estimotes li img	{ margin: 0 auto; display: block; width: 68px; height: 183px }
